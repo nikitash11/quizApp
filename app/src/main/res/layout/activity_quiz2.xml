@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/h"
+    tools:context=".QuizActivity2">
+
+    <!-- Question 4-->
+    <TextView
+        style="@style/questionStyle"
+        android:text="4. Which vegetable makes your eyes tear when you peel it?" />
+
+    <RadioGroup
+        android:id="@+id/num_four_radio_group"
+        style="@style/radio_group">
+
+        <RadioButton
+            android:id="@+id/Pepper"
+            style="@style/radiobutton"
+            android:text="Tomato"/>
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="Carrot"/>
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="Peas"/>
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="Onion"/>
+    </RadioGroup>
+
+    <!-- Question 5-->
+    <TextView
+        style="@style/questionStyle"
+        android:text="5. How do pineapples grow?"/>
+
+    <RadioGroup
+        android:id="@+id/num_five_radio_group"
+        style="@style/radio_group">
+
+        <RadioButton
+            android:id="@+id/ground"
+            style="@style/radiobutton"
+            android:text="On the ground"/>
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="on the tree"/>
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="on the plant"/>
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="on the branch"/>
+    </RadioGroup>
+
+    <TextView
+        style="@style/questionStyle"
+        android:text="5.The main ingredient in mash and French fries?"/>
+
+    <RadioGroup
+        android:id="@+id/num_six_radio_group"
+        style="@style/radio_group">
+
+        <RadioButton
+            android:id="@+id/potato"
+            style="@style/radiobutton"
+            android:text="Onion"/>
+
+        <RadioButton
+            android:id="@+id/Pumpkin"
+            style="@style/radiobutton"
+            android:text="Potato"/>
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:drawableEnd="@android:drawable/ic_menu_send"
+        android:text="@string/submit" />
+</LinearLayout>

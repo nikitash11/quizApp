@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="title">Test Your Knowledge about Fruits and Vegetables</string>
+    <string name="score">Well done!! Your score is</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="back_to_start_quiz">Back to Start Quiz</string>
+    <string name="submit">Submit</string>
+    <string name="next_page">Next Page</string>
+    <string name="que_1">1. Which vegetable can be sweet or bitter?</string>
+    <string name="que_2">2. What is the largest vegetable?</string>
+
+
+</resources>

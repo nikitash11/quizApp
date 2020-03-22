@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/h"
+    tools:context=".QuizActivity">
+    <!-- Question 1-->
+
+    <TextView
+        style="@style/questionStyle"
+        android:text="@string/que_1"
+        />
+
+    <RadioGroup
+        android:id="@+id/num_one_radio_group"
+        style="@style/radio_group">
+
+        <RadioButton
+            android:id="@+id/Pepper"
+            style="@style/radiobutton"
+            android:text="Pepper"/>
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="Carrot"/>
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="Peas"/>
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="Onion"/>
+    </RadioGroup>
+
+    <!-- Question 2-->
+
+    <TextView
+        style="@style/questionStyle"
+        android:text="@string/que_2"/>
+
+    <RadioGroup
+        android:id="@+id/num_two_radio_group"
+        style="@style/radio_group">
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="Beetroot"/>
+
+        <RadioButton
+            android:id="@+id/Pumpkin"
+            style="@style/radiobutton"
+            android:text="Pumpkin"/>
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="Apple"/>
+
+        <RadioButton
+            style="@style/radiobutton"
+            android:text="Tomato"/>
+    </RadioGroup>
+
+
+    <!-- Question 3 -->
+    <TextView
+        style="@style/questionStyle"
+        android:text="3. What is another name for passion fruit?"
+        />
+    <CheckBox
+        android:id="@+id/nit"
+        style="@style/check_box"
+        android:text="Rose"
+        />
+    <CheckBox
+        android:id="@+id/ni"
+        style="@style/check_box"
+        android:text="Legumes "/>
+    <CheckBox
+        android:id="@+id/n"
+        style="@style/check_box"
+        android:text="Maracuya"/>
+    <CheckBox
+        android:id="@+id/nitr"
+        style="@style/check_box"
+        android:text="Lemon"/>
+
+    <Button
+        android:id="@+id/next_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:drawableEnd="@android:drawable/ic_media_next"
+        android:text="@string/next_page" />
+</LinearLayout>
